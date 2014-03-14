@@ -1,6 +1,7 @@
 (function(){
   'use strict';
 
+  //https://github.com/angular/angular.js/blob/master/src/ng/sanitizeUri.js
   ngSanitize.aHrefSanitizationWhitelist  = aHrefSanitizationWhitelist;
   ngSanitize.imgSrcSanitizationWhitelist = imgSrcSanitizationWhitelist;
   ngSanitize.ngSanitize = ngSanitize;

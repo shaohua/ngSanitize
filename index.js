@@ -23,6 +23,7 @@
     }
     return _imgSrcSanitizationWhitelist;
   }
+
   function aHrefSanitizationWhitelist(regexp) {
     if (isDefined(regexp)) {
       _aHrefSanitizationWhitelist = regexp;
@@ -30,6 +31,7 @@
     }
     return _aHrefSanitizationWhitelist;
   }
+
   function ngSanitize(html) {
     var buf = [];
     htmlParser(html, htmlSanitizeWriter(buf, function(uri, isImage) {

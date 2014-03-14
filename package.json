@@ -26,5 +26,16 @@
   "bugs": {
     "url": "https://github.com/gdi2290/ngSanitize/issues"
   },
-  "homepage": "https://github.com/gdi2290/ngSanitize"
+  "homepage": "https://github.com/gdi2290/ngSanitize",
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "requirejs": "~2.1.9",
+    "grunt": "~0.4.2",
+    "grunt-mocha": "~0.4.7",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-stylus": "~0.11.0",
+    "nib": "~1.0.1"
+  }
+
 }
